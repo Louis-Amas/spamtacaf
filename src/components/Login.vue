@@ -2,9 +2,9 @@
 <template>
     <div>
         <v-container>
-            <v-layout row wrap justify-space-between>
+            <v-layout row wrap justify-space-around align-center>
                 <v-flex md5>
-                    <v-card class="align-center">
+                    <v-card>
                         <v-card-title primary-title class="justify-center">
                             Connexion
                         </v-card-title>
@@ -58,9 +58,14 @@
 <script>
     export default {
         name: 'Login',
-        props: {
-            msg: String
-        }
+        data(){
+            return{
+                username: '',
+                password: '',
+                firstname: '',
+                name: '',
+            }
+        },
     }
 </script>
 
