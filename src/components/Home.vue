@@ -1,14 +1,32 @@
 <template>
-  <div id="app">
+  <div>
+
     <v-toolbar dark class="green darken-3">
-      <v-toolbar-title class="headline text-uppercase">
-        <span class="font-weight-light">LANCER UNE PARTIE</span>
+      <v-toolbar-title class="headline text-upper">
+        <span>BELOTE</span>
+        <span class="font-weight-light"> CONTRÉE</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn disabled>
-        <span class="mr-2">lourd</span>
-      </v-btn>
+      <v-toolbar-title class="headline text-upper">
+        <span>BELOTE</span>
+        <span class="font-weight-light"> CONTRÉE</span>
+      </v-toolbar-title>
     </v-toolbar>
+
+    <v-container grid-list-md>
+      <v-layout row wrap>
+        <v-flex md4>
+          <v-btn color="success">Home</v-btn>
+        </v-flex>
+        <v-flex md4>
+          <v-card>
+            <v-card-title primary-title>
+              title
+            </v-card-title>
+          </v-card>
+        </v-flex>
+      </v-layout>
+    </v-container>
   </div>
 </template>
 
