@@ -8,7 +8,7 @@
     </p>
     <h3>Classement des emails les plus spammés</h3>
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">Podium</a></li>
+      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">Classement</a></li>
     </ul>
     <h3>Découverte des emails inconnus du bataillon</h3>
     <ul>
