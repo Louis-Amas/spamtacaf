@@ -1,16 +1,18 @@
 <template>
-  <div >
-      Caf
-  </div>
+    <div>
+        <v-container>
+            Caf
+        </v-container>
+    </div>
 </template>
 
 <script>
-  export default {
-    name: 'Caf',
-    props: {
-      msg: String
+    export default {
+        name: 'Caf',
+        props: {
+            msg: String
+        }
     }
-  }
 </script>
 
 <style>
