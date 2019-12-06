@@ -22,7 +22,7 @@
                 <v-layout justify-center ma-10 row wrap>
                     <v-flex md8>
                         <v-lazy :options="{threshold: .5}" transition="slide-x-transition" v-model="isActive">
-                            <v-card>
+                            <v-card tile>
                                 <v-layout row wrap>
                                     <v-flex md5>
                                         <v-container pb-0 pt-0>
@@ -51,7 +51,7 @@
                 <v-layout justify-center ma-10 row wrap>
                     <v-flex md8>
                         <v-lazy :options="{threshold: .5}" transition="slide-x-transition" v-model="isActive">
-                            <v-card>
+                            <v-card tile>
                                 <v-layout row wrap>
                                     <v-flex align-self-center md7 pa-8>
                                         <v-card-title class="layout justify-center" primary-title>Un éparpillement des
@@ -85,7 +85,7 @@
                 <v-layout justify-center ma-10 row wrap>
                     <v-flex md8>
                         <v-lazy :options="{threshold: 0.5}" transition="slide-x-transition" v-model="isActive">
-                            <v-card>
+                            <v-card tile>
                                 <v-layout row wrap>
                                     <v-flex md5>
                                         <v-container pb-0 pt-0>
