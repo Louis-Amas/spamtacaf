@@ -1,15 +1,16 @@
 
 <template>
     <div>
-        <v-container>
-            <v-layout row wrap justify-space-around align-center>
-                <v-flex md5>
-                    <v-card>
-                        <v-card-title primary-title class="justify-center">
-                            Connexion
-                        </v-card-title>
+        <v-img src="../assets/yellow.jpg" cover>
+            <v-container fill-height fill-width>
+                <v-layout row wrap justify-space-around align-center>
+                    <v-flex md5 justify-start>
+                        <v-card color="rgb(255, 255, 255, 0.8)">
+                            <v-card-title primary-title class="justify-center">
+                                Connexion
+                            </v-card-title>
                             <v-form>
-                                <v-container fluid>
+                                <v-container fluid >
                                     <v-layout row wrap>
                                         <v-flex md8 offset-md-2 >
                                             <v-text-field label="Pseudo" v-model="username" placeholder="Pseudo"/>
@@ -21,14 +22,14 @@
                                 </v-container>
                             </v-form>
                         </v-card>
-                    
-                </v-flex>
+
+                    </v-flex>
 
                     <v-flex md5>
-                        <v-card>
-                        <v-card-title primary-title class="justify-center">
-                            Inscription
-                        </v-card-title>
+                        <v-card color="rgb(255, 255, 255, 0.8)">
+                            <v-card-title primary-title class="justify-center">
+                                Inscription
+                            </v-card-title>
                             <v-form>
                                 <v-container fluid>
                                     <v-layout row wrap>
@@ -48,10 +49,11 @@
                                 </v-container>
                             </v-form>
                         </v-card>
-                        
+
                     </v-flex>
                 </v-layout>
-        </v-container>
+            </v-container>
+        </v-img>
     </div>
 </template>
 
