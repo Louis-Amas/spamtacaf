@@ -17,6 +17,9 @@
                                         <v-flex md8 offset-md-2 >
                                             <v-text-field name="name" label="Mot de passe" placeholder="Mot de passe" v-model="password" hint="At least 8 characters" min="8" :type="'password'"></v-text-field>
                                         </v-flex>
+                                        <v-flex md8 offset-md-4>
+                                            <v-btn color="success"> Se connecter </v-btn>
+                                        </v-flex>
                                     </v-layout>
                                 </v-container>
                             </v-form>
@@ -43,6 +46,9 @@
                                         </v-flex>
                                         <v-flex md8 offset-md-2 >
                                             <v-text-field name="name" label="Mot de passe" placeholder="Mot de passe" v-model="password" hint="At least 8 characters" min="8" :type="'password'"></v-text-field>
+                                        </v-flex>
+                                        <v-flex md8 offset-md-4>
+                                            <v-btn color="success"> S'enregistrer </v-btn>
                                         </v-flex>
                                     </v-layout>
                                 </v-container>
