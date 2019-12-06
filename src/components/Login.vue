@@ -1,7 +1,6 @@
 
 <template>
-    <div>
-        <v-img src="../assets/yellow.jpg" cover>
+        <v-img src="../assets/yellow.jpg" height="100vh">
             <v-container fill-height fill-width>
                 <v-layout row wrap justify-space-around align-center>
                     <v-flex md5 justify-start>
@@ -54,7 +53,6 @@
                 </v-layout>
             </v-container>
         </v-img>
-    </div>
 </template>
 
 <script>
