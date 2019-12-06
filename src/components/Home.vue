@@ -201,10 +201,10 @@
             <section>
                 <v-parallax height="380" src="../assets/book.jpg">
                     <v-layout align-center column justify-center>
-                        <div class="headline black--text mb-4 text-center">Web development has never been easier</div>
-                        <em class="black--text">Kick-start your application today</em>
+                        <div class="headline black--text mb-4 text-center">Accéder à mon espace</div>
+                        <em class="black--text">Connexion ou Inscription</em>
                         <v-btn @click="goToLogin" class="mt-12" color="primary" dark large>
-                            Get Started
+                            Connexion
                         </v-btn>
                     </v-layout>
                 </v-parallax>
