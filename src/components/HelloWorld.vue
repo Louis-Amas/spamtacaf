@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="Hello">
     <h1>{{ msg }}</h1>
     <p>
       Si tu ne connais pas la CAF, ce site te montrera comme l'ignorance peut parfois être synonyme de délivrance.<br>
