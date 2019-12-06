@@ -32,7 +32,7 @@
                             <v-card-title primary-title class="justify-center">
                                 Inscription
                             </v-card-title>
-                            <v-form>
+                            <v-form  @submit="addStudent" id="formregister">
                                 <v-container fluid>
                                     <v-layout row wrap>
                                         <v-flex md8 offset-md-2 >
@@ -48,7 +48,7 @@
                                             <v-text-field name="name" label="Mot de passe" placeholder="Mot de passe" v-model="password" hint="At least 8 characters" min="8" :type="'password'"></v-text-field>
                                         </v-flex>
                                         <v-flex md8 offset-md-4>
-                                            <v-btn color="success" :click="addStudent"> S'enregistrer </v-btn>
+                                            <v-btn type="submit" form="formregister" color="success">S'enregistrer</v-btn>
                                         </v-flex>
                                     </v-layout>
                                 </v-container>
