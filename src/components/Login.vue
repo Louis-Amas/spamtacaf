@@ -12,10 +12,10 @@
                                 <v-container fluid >
                                     <v-layout row wrap>
                                         <v-flex md8 offset-md-2 >
-                                            <v-text-field label="Pseudo" v-model="username" placeholder="Pseudo"/>
+                                            <v-text-field label="Pseudo"  placeholder="Pseudo"/>
                                         </v-flex>
                                         <v-flex md8 offset-md-2 >
-                                            <v-text-field name="name" label="Mot de passe" placeholder="Mot de passe" v-model="password" hint="At least 8 characters" min="8" :type="'password'"></v-text-field>
+                                            <v-text-field name="name" label="Mot de passe" placeholder="Mot de passe" hint="At least 8 characters" min="8" :type="'password'"></v-text-field>
                                         </v-flex>
                                         <v-flex md8 offset-md-4>
                                             <v-btn color="success"> Se connecter </v-btn>
@@ -48,7 +48,7 @@
                                             <v-text-field name="name" label="Mot de passe" placeholder="Mot de passe" v-model="password" hint="At least 8 characters" min="8" :type="'password'"></v-text-field>
                                         </v-flex>
                                         <v-flex md8 offset-md-4>
-                                            <v-btn color="success"> S'enregistrer </v-btn>
+                                            <v-btn color="success" :click="addStudent"> S'enregistrer </v-btn>
                                         </v-flex>
                                     </v-layout>
                                 </v-container>
@@ -66,12 +66,18 @@
         name: 'Login',
         data(){
             return{
+                studentslist: [],
                 username: '',
                 password: '',
                 firstname: '',
-                name: '',
+                name: ''
             }
         },
+        methods: {
+            addStudent: function(){   
+                this.studentslist.push({username: this.username, password: this.password , firstname: this.firstname, name: this.name}); 
+            },
+        }
     }
 </script>
 
